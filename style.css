@@ -87,12 +87,14 @@
 
 .price {
     font-family: 'Merriweather', serif;
+    color: rgb(158, 158, 158);
 }
 
 .fullPrice {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     text-decoration: line-through;
+    color: rgb(158, 158, 158);
 }
 
 .salePrice {
