@@ -9,18 +9,21 @@
 }
 
 .bottomContainer {
-    padding: 10px;
+    margin: 10px;
     position: relative;
 }
 
 .product {
     border: 1px #000 solid;
     border-radius: 10px;
+}
+
+.productContainer {
+    margin: 10px;
     background-image: url(https://4lapy.ru/resize/800x800/upload/iblock/8fb/8fb940ec6a6b87e6002f7ee5d94bfce5.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;
-    padding: 10px;
     height: 260px;
     position: relative;
 }
@@ -76,13 +79,15 @@
 }
 
 .productStar {
-    height: 11px;
-    width: 65px;
+    height: 15px;
+    width: 70px;
+    vertical-align: middle;
 }
 
 .resetPrice {
     height: 20px;
     width: 20px;
+    vertical-align: middle;
 }
 
 .price {
